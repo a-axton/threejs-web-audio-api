@@ -1,0 +1,36 @@
+{
+  "name": "threejs-web-audio-api",
+  "version": "0.0.0",
+  "description": "THREE.js and web audio api playground",
+  "main": "''",
+  "scripts": {
+    "build": "webpack --progress --profile --colors",
+    "dev": "webpack-dev-server --progress --profile --colors --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/a-axton/threejs-web-audio-api"
+  },
+  "author": "Andy Axton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/a-axton/threejs-web-audio-api/issues"
+  },
+  "homepage": "https://github.com/a-axton/threejs-web-audio-api",
+  "dependencies": {
+    "dat-gui": "^0.5.0",
+    "lodash": "^3.10.1",
+    "three": "^0.73.0",
+    "three-orbit-controls": "^71.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^5.5.8",
+    "babel-loader": "^5.1.4",
+    "css-loader": "^0.18.0",
+    "file-loader": "^0.8.4",
+    "style-loader": "^0.12.4",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.9.11",
+    "webpack-dev-server": "^1.9.0"
+  }
+}
