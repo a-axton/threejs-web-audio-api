@@ -4,7 +4,7 @@
   "description": "THREE.js and web audio api playground",
   "main": "''",
   "scripts": {
-    "build": "webpack --progress --profile --colors",
+    "build": "webpack --optimize-minimize --optimize-occurrence-order --optimize-dedupe",
     "dev": "webpack-dev-server --progress --profile --colors --hot"
   },
   "repository": {

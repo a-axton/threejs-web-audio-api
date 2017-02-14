@@ -9,7 +9,7 @@ module.exports = {
   ],
   devtool: process.env.WEBPACK_DEVTOOL || 'source-map',
   output: {
-    path: path.join(__dirname, 'dist'),
+    path: path.join(__dirname, 'demo'),
     filename: 'bundle.js'
   },
   resolve: {
@@ -48,7 +48,7 @@ module.exports = {
     ]
   },
   devServer: {
-    contentBase: "./dist",
+    contentBase: "./demo",
     noInfo: true,
     hot: true,
     inline: true
